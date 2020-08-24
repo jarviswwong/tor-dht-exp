@@ -1,6 +1,8 @@
 data-dir-temp-*
 *.exe
 *.pem
+/go-tor-dht-poc/go-tor-dht-poc
+/js-tor-dht-poc/js-tor-dht-poc
 /js-tor-dht-poc/node_modules
 /js-tor-dht-poc/package-lock.json
 /js-tor-dht-poc/public/index.js
