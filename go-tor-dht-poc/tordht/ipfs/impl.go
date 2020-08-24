@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cretz/tor-dht-poc/go-tor-dht-poc/tordht"
 	cid "github.com/ipfs/go-cid"
 	datastore "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/sync"
 	log "github.com/ipfs/go-log"
+	"github.com/jarviswwong/tor-dht-exp/go-tor-dht-poc/tordht"
 	libp2p "github.com/libp2p/go-libp2p"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	opts "github.com/libp2p/go-libp2p-kad-dht/opts"

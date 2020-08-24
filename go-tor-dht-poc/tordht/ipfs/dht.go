@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/cretz/bine/tor"
-	"github.com/cretz/tor-dht-poc/go-tor-dht-poc/tordht"
+	"github.com/jarviswwong/tor-dht-exp/go-tor-dht-poc/tordht"
+	peer "github.com/libp2p/go-libp2p-core/peer"
 	host "github.com/libp2p/go-libp2p-host"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
-	peer "github.com/libp2p/go-libp2p-core/peer"
 	peerstore "github.com/libp2p/go-libp2p-peerstore"
 
 	ma "github.com/multiformats/go-multiaddr"

@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/cretz/bine/tor"
-	"github.com/cretz/tor-dht-poc/go-tor-dht-poc/tordht"
-	"github.com/cretz/tor-dht-poc/go-tor-dht-poc/tordht/ipfs"
+	"github.com/jarviswwong/tor-dht-exp/go-tor-dht-poc/tordht"
+	"github.com/jarviswwong/tor-dht-exp/go-tor-dht-poc/tordht/ipfs"
 )
 
 // Change to true to see lots of logs

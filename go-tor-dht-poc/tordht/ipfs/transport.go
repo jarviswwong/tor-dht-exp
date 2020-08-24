@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cretz/tor-dht-poc/go-tor-dht-poc/tordht/ipfs/websocket"
 	gorillaws "github.com/gorilla/websocket"
+	"github.com/jarviswwong/tor-dht-exp/go-tor-dht-poc/tordht/ipfs/websocket"
 
 	"github.com/whyrusleeping/mafmt"
 
