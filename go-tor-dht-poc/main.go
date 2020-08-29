@@ -12,7 +12,7 @@ import (
 )
 
 // Change to true to see lots of logs
-const debug = false
+const debug = true
 const participatingPeerCount = 5
 const dataID = "tor-dht-poc-test"
 
