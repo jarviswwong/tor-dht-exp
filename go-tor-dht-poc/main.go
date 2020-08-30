@@ -79,18 +79,6 @@ func provide(args []string) error {
 	if err = dhts[0].Provide(ctx, []byte(dataID)); err != nil {
 		return fmt.Errorf("Failed providing on first: %v", err)
 	}
-	log.Printf("Providing key on the first one (%v)\n", dhts[1].PeerInfo())
-        if err = dhts[0].Provide(ctx, []byte(dataID)); err != nil {
-                return fmt.Errorf("Failed providing on first: %v", err)
-        }
-	log.Printf("Providing key on the first one (%v)\n", dhts[2].PeerInfo())
-        if err = dhts[0].Provide(ctx, []byte(dataID)); err != nil {
-                return fmt.Errorf("Failed providing on first: %v", err)
-        }
-	log.Printf("Providing key on the first one (%v)\n", dhts[3].PeerInfo())
-        if err = dhts[0].Provide(ctx, []byte(dataID)); err != nil {
-                return fmt.Errorf("Failed providing on first: %v", err)
-        }
 	log.Printf("Providing key on the last one (%v)\n", dhts[len(dhts)-1].PeerInfo())
 	if err = dhts[len(dhts)-1].Provide(ctx, []byte(dataID)); err != nil {
 		return fmt.Errorf("Failed providing on last: %v", err)
