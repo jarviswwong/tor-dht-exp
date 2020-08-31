@@ -56,6 +56,7 @@ func NewTorTransport(bineTor *tor.Tor, conf *TorTransportConf) func(*upgrader.Up
 func (t *TorTransport) Dial(ctx context.Context, raddr ma.Multiaddr, p peer.ID) (transport.Conn, error) {
 	t.bineTor.Debugf("For peer ID %v, dialing %v", p, raddr)
 	var addr string
+	t.bineTor.Debugf("raddr value=%v", raddr.String())
 	if onionID, port, err := defaultAddrFormat.onionInfo(raddr); err != nil {
 		return nil, err
 	} else {
