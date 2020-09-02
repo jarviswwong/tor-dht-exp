@@ -86,8 +86,9 @@ func provide(args []string) error {
 
 	// Wait for key press...
 	log.Printf("Press enter to quit...\n")
-	_, err = fmt.Scanln()
-	return err
+	select{}
+	//_, err = fmt.Scanln()
+	return nil
 }
 
 func find(args []string) error {
